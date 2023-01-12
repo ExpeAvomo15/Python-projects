@@ -1,6 +1,6 @@
 '''
-Programa a través del cual un usuario,  puede leer, crear y eliminar recetas que se encuentran
-en una base de datos.
+Program through which a user can read, create and delete recipes found
+in a database.
 '''
 
 from pathlib import Path
