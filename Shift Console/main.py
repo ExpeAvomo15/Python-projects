@@ -1,7 +1,12 @@
+''' 
+effective code, to manage customer shifts in a business.
+'''
+
+
 import numbers
 
 
-def preguntar():
+def asking():
 
     print('Welcome to Python farmacy')
 
@@ -22,7 +27,7 @@ def preguntar():
 def home():
 
     while True:
-        preguntar()
+        asking()
         try:
             other_turn = input ('Do yu want to choose another turn? [Y] [N]: ').upper()
             ['Y', 'N'].index(other_turn)
